@@ -1,0 +1,28 @@
+.spiner{
+    margin-top: 350px;
+    margin-left: 47%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #0000ff;
+    animation: bounce 1.5s linear infinite;
+}
+
+@keyframes  bounce{
+ 0%{top:0};
+ 45%{top:140px}
+ 50%{top:160px}
+ 55%{top:100px}
+ 95%{top:0%}
+ 100%{top: 0%}
+
+}
+
+hr{
+    margin-top: 580px;
+    padding-top: 1%;
+    background: black;
+    width: 10%;
+    size: 5px;
+}
